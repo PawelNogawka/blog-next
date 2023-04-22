@@ -1,38 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Historical blog created using Next.js and MongoDB.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Live site: https://main--tangerine-praline-46ea69.netlify.app/![Zrzut ekranu z 2023-04-22 o 16 27 42](https://user-images.githubusercontent.com/108990517/233790744-c00856f1-67c7-48f2-b876-da425936a5ae.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 06](https://user-images.githubusercontent.com/108990517/233790748-6ef790b6-9c54-49db-ada8-7a64ae6ba172.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 16](https://user-images.githubusercontent.com/108990517/233790749-b79d3c23-f8cf-48d3-b788-8048e50b55cc.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 00](https://user-images.githubusercontent.com/108990517/233790750-160bb455-91d3-4dac-9235-4d698b8b6f78.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 31](https://user-images.githubusercontent.com/108990517/233790751-8cfa0192-0aad-4933-bb36-9c441986d1ab.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 40](https://user-images.githubusercontent.com/108990517/233790752-6367bda7-3d09-457a-9397-a66ab1230b90.png)
+![Zrzut ekranu z 2023-04-22 o 16 27 54](https://user-images.githubusercontent.com/108990517/233790753-44b8bf17-8734-4890-9a7b-00a44207ba38.png)
+![Zrzut ekranu z 2023-04-22 o 16 28 45](https://user-images.githubusercontent.com/108990517/233790758-a95c4148-ee20-4894-8456-cb8b5972767a.png)
