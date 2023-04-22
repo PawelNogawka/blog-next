@@ -2,7 +2,7 @@ Historical blog created using Next.js and MongoDB.
 
 Live site: https://main--tangerine-praline-46ea69.netlify.app/
 
-![Zrzut ekranu z 2023-04-22 o 16 27 42](https://user-images.githubusercontent.com/108990517/233790744-c00856f1-67c7-48f2-b876-da425936a5ae.png)
+
 ![Zrzut ekranu z 2023-04-22 o 16 28 06](https://user-images.githubusercontent.com/108990517/233790748-6ef790b6-9c54-49db-ada8-7a64ae6ba172.png)
 ![Zrzut ekranu z 2023-04-22 o 16 28 16](https://user-images.githubusercontent.com/108990517/233790749-b79d3c23-f8cf-48d3-b788-8048e50b55cc.png)
 ![Zrzut ekranu z 2023-04-22 o 16 28 00](https://user-images.githubusercontent.com/108990517/233790750-160bb455-91d3-4dac-9235-4d698b8b6f78.png)
