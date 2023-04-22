@@ -10,3 +10,4 @@ Live site: https://main--tangerine-praline-46ea69.netlify.app/
 ![Zrzut ekranu z 2023-04-22 o 16 28 40](https://user-images.githubusercontent.com/108990517/233790752-6367bda7-3d09-457a-9397-a66ab1230b90.png)
 ![Zrzut ekranu z 2023-04-22 o 16 27 54](https://user-images.githubusercontent.com/108990517/233790753-44b8bf17-8734-4890-9a7b-00a44207ba38.png)
 ![Zrzut ekranu z 2023-04-22 o 16 28 45](https://user-images.githubusercontent.com/108990517/233790758-a95c4148-ee20-4894-8456-cb8b5972767a.png)
+![Zrzut ekranu z 2023-04-22 o 16 31 15](https://user-images.githubusercontent.com/108990517/233790824-57aa016a-9918-471f-9939-c6e2a9c611b8.png)
