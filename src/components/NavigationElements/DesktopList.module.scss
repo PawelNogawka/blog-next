@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.desktop {
+  display: none;
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .link {
+    padding: 0.3rem;
+    text-transform: capitalize;
+    color: $dark-text;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $main;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .desktop {
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.mobile {
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .link {
+    padding: 0.8rem;
+    text-transform: capitalize;
+    color: $dark-text;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $main;
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 2rem;
+    top: 9rem;
+    padding: 0.8rem;
+
+    svg {
+      color: $main;
+      font-size: 3rem;
+    }
+  }
+}

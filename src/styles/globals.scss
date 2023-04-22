@@ -1,0 +1,165 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 10rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+button {
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $dark-text;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  line-height: 142%;
+}
+
+address {
+  display: inline;
+  font-style: normal;
+}
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #fff;
+  color: $dark-text;
+  font-size: 1.4rem;
+  position: absolute;
+  padding: 0.5rem;
+  bottom: -3.5rem;
+  left: 100%;
+  white-space: nowrap;
+  border-radius: $border-radius;
+  opacity: 0;
+  border: 1px solid $gray;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+}
+.card {
+  padding: 3rem 2rem;
+  border-radius: $border-radius;
+  box-shadow: $card-shadow;
+}
+
+.section-padding {
+  padding: 3rem 0;
+}
+
+.header--active {
+  box-shadow: $nav-shadow;
+}
+
+.post-details-main {
+  margin-top: 10rem;
+  padding-bottom: 3rem;
+}
+.post-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem 4rem;
+}
+
+.post-details-left {
+  flex: 1 1 70rem;
+
+}
+
+.post-details-right {
+  flex: 1 1 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.error-message{
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+.categories-main{
+  margin-top: 12rem;
+  padding-bottom: 3rem;
+}
+
+.main-heading{
+  font-size: min(9vw, 3.6rem);
+   margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 4rem 0;
+  }
+  
+  .post-details-main {
+    margin-top: 12rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .categories-main{
+    margin-top: 12rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .main-heading{
+    margin-top: 15rem;
+    margin-bottom: 6rem;
+    font-weight: 700;
+    line-height: 140%;
+  }
+}

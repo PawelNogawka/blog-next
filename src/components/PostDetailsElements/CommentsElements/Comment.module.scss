@@ -1,0 +1,28 @@
+@import "../../../styles/variables";
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .author {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .name {
+    font-size: 1.6rem;
+    color: $dark-text;
+  }
+
+  .time {
+    color: $light-text;
+    font-size: 1.4rem;
+  }
+
+  .value {
+    color: $dark-text;
+    line-height: 140%;
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../styles/variables";
+
+.newsletter {
+  padding: 4rem 0;
+  background-color: $gray;
+
+  .newsletter-form {
+    position: relative;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .btn {
+    position: absolute;
+    right: 0.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 3rem;
+    background-color: $main;
+    border-radius: $border-radius;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $dark-main;
+    }
+
+    svg {
+      color: #fff;
+      font-size: 1.6rem;
+    }
+  }
+
+  .error,
+  .success {
+    margin-top: 0.7rem;
+    text-align: center;
+  }
+
+  .error {
+    color: $error;
+  }
+
+  .success {
+    color: $success;
+  }
+
+  .loading {
+    svg {
+      animation: spin 3s infinite ease;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

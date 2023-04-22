@@ -1,0 +1,45 @@
+@import "../../../styles/variables";
+
+.widget {
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .link {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .img {
+    width: 7rem;
+    height: 9rem;
+    flex-shrink: 0;
+    border-radius: $border-radius;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.4rem;
+  }
+
+  .title {
+    line-height: 130%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 568px) {
+  .widget {
+    .img {
+      height: 7rem;
+    }
+  }
+}

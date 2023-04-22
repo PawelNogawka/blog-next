@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 30rem;
+  max-width: 50rem;
+
+  .img {
+    width: 100%;
+    height: 35rem;
+    margin-bottom: 1.6rem;
+    border-radius: $border-radius;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+
+  .title {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    line-height: 140%;
+  }
+
+  .excerpt {
+    margin-bottom: 2rem;
+    flex-grow: 1;
+    color: $light-text;
+  }
+}
+
+@media (min-width: 992px) {
+  .post {
+    .img {
+      height: 50rem;
+    }
+  }
+}

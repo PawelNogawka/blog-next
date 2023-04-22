@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 1.4rem;
+
+  &--small {
+    margin-bottom: 0;
+    gap: 0.7rem;
+    .feature {
+      svg {
+        font-size: 1.3rem;
+      }
+      span {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  svg {
+    color: $dark-text;
+    font-size: 1.6rem;
+  }
+
+  span,
+  a {
+    color: $light-text;
+    font-size: 1.4rem;
+  }
+}

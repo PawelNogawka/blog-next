@@ -1,0 +1,28 @@
+@import "../../../styles/variables";
+
+.form {
+  margin-top: 2.5rem;
+  width: 100%;
+  max-width: 70rem;
+
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+
+  .btns {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 1.4rem;
+  }
+
+  .error {
+    color: $error;
+  }
+}

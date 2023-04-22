@@ -1,0 +1,96 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  margin-top: 9rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 5rem;
+  }
+
+  .header {
+    flex: 1.2;
+    flex-basis: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+  }
+
+  .heading {
+    font-weight: 700;
+    line-height: 140%;
+    font-size: min(9vw, 4.5rem);
+  }
+
+  .hero-post {
+    flex: 2;
+    flex-basis: 45rem;
+    position: relative;
+    height: 80vh;
+  }
+
+  .hero-post-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: $border-radius;
+  }
+
+  .hero-post-box {
+    position: absolute;
+    bottom: -20rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: #fff;
+  }
+
+  .hero-post-title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .hero-post-desc {
+    color: $light-text;
+  }
+
+  .desc {
+    color: $light-text;
+  }
+}
+
+
+@media(min-width:900px){
+  .banner{
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    .header {
+      margin-top: 5rem;
+    }
+
+    .hero-post-box {
+      bottom: 3rem;
+      left: -70%;
+      width: 70vw;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+}

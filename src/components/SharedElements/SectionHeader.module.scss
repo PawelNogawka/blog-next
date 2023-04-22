@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.header {
+  margin-bottom: 3rem;
+  text-align: center;
+
+  .heading {
+    font-size: min(8vw, 3.2rem);
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+  }
+
+  .subtitle {
+    color: $light-text;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 6rem;
+
+    &--low-margin {
+      margin-bottom: 4rem;
+    }
+  }
+}

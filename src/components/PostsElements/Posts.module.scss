@@ -1,0 +1,19 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+  .left {
+    flex: 1 1 40rem;
+  }
+
+  .right {
+    flex: 1 1 55rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

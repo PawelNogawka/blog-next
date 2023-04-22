@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.sources {
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: disc;
+    padding-left: 1rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .item {
+    color: $light-text;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.widget {
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+    text-transform: capitalize;
+    color: $dark-text;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+
+      svg {
+        color: $main;
+        font-size: 1.8rem;
+      }
+
+      .link {
+        color: $dark-text;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $main;
+        }
+      }
+    }
+  }
+}

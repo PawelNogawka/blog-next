@@ -1,0 +1,64 @@
+@import "../../styles/variables";
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  // background-image: $backdrop-gradient;
+  z-index: 1111;
+}
+
+.modal-overlay {
+  position: fixed;
+  left: 50%;
+  top: 5vh;
+  width: 90%;
+  max-width: 70rem;
+  transform: translate(0, -50%);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: $card-shadow;
+  z-index: 2000;
+  animation: slide-down 300ms ease-out forwards;
+  overflow: scroll;
+  font-family: sans-serif;
+
+  &--nav {
+    left: 0rem;
+    top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    transform: translate(0, -100%);
+    animation: slide-down-nav 300ms ease-out forwards;
+    box-shadow: none;
+    max-width: 100vw;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes slide-down-nav {
+  from {
+    opacity: 0;
+    transform: translate(0, -100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

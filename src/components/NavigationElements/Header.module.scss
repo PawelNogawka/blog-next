@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100vw;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  z-index: 9000000;
+  transition: box-shadow 0.3s ease;
+
+  &--active {
+    box-shadow: $card-shadow;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-weight: 600;
+    color: $dark-text;
+    font-size: min(9vw, 3rem);
+    text-transform: capitalize;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      color: $dark-text;
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    .burger {
+      display: none;
+    }
+  }
+}

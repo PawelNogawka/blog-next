@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+.error {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000000;
+
+  .message {
+    color: $error;
+    margin-bottom: 3rem;
+    font-size: min(8rem, 3.7rem);
+  }
+}
